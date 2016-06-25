@@ -1,0 +1,126 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".fragments.RegistrationFragment"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dummy_text"
+            android:fontFamily="sans-serif-light"
+            android:lineSpacingMultiplier="1.2"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dummy_event_pic"
+            android:layout_marginTop="16dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your email address"
+            />
+
+        <EditText
+            android:id="@+id/e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your date of birth"
+            android:layout_marginTop="8dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Occupation"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/black"
+            />
+        
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Software Enginner"
+                android:layout_marginTop="4dp"
+                />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Designer"
+                android:layout_marginTop="4dp"
+                />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Student"
+                android:layout_marginTop="4dp"
+                />
+
+        </RadioGroup>
+        
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Have you ever done anything related to IoT ?"
+            android:layout_marginTop="8dp"
+            />
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Would you like to get notification from Phandeeyar when events like this happen again ?"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="4dp"
+            android:lineSpacingMultiplier="1.2"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Put this event time into"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/black"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/calendar_array"
+            android:layout_marginTop="8dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="16dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
+
