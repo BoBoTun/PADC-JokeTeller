@@ -1,4 +1,4 @@
-package xyz.aungpyaephyo.rpe;
+package com.syncsource.org.ew3;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
